@@ -3,5 +3,5 @@ Rails.application.routes.draw do
 
   root  'pages#home'
   get 'about', to: 'pages#about'
-
+  get 'api', to: "pages#food_truck_cuisine"
 end
